@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>텍스트 링크에 스타일 추가하기</title>
+    <style>
+        a {
+            text-decoration: none;
+            /*밑줄 없앰*/
+            color: black;
+        }
+        
+        ul>li {
+            display: inline-block;
+            /*항목을 가로로 배열*/
+            width: 80px;
+            /*각 항목의 너비 */
+        }
+        
+        ul {
+            padding-left: 0;
+            /*목록 들여쓰지 않기 */
+        }
+    </style>
+
+</head>
+
+<body>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/funnycom" target="_blank">facebook</a>
+        </li>
+        <li>
+            <a href="https://www.twitter.com/funnycom" target="_blank">twitter</a>
+        </li>
+    </ul>
+
+</body>
+
+</html>
