@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>박스모델너비결정</title>
+    <style>
+        div {
+            width: 300px;
+            height: 150px;
+            margin: 10px;
+            padding: 30px;
+            border: 2px solid red;
+        }
+        
+        .box1 {
+            box-sizing: content-box;
+        }
+        
+        .box2 {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"> box-sizing = "content-box"</div>
+    <div class="box2"> box-sizing = "content-box"</div>
+
+</body>
+
+</html>
