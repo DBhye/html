@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .rec {
+            width: 600px;
+            margin: 50px auto;
+        }
+        
+        .img-coffee:hover {
+            animation-name: change;
+            animation-duration: 3s;
+        }
+        
+        @keyframes change {
+            0% {}
+            100% {
+                border-radius: 10px;
+                transform: rotate(20deg);
+                border: 1px solid black;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rec">
+        <img src="images/coffee.jpg" class="img-coffee" alt="커피">
+    </div>
+</body>
+
+</html>

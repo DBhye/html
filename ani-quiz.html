@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>연습문제 1번</title>
+    <style>
+        .rec {
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border: 1px solid black;
+            border-radius: 10%;
+        }
+        
+        .rec:hover {
+            animation-name: bg-change;
+            animation-duration: 1s;
+        }
+        
+        @keyframes bg-change {
+            from {
+                background-color: green;
+                border: 1px solid black;
+                border-radius: 10%;
+            }
+            to {
+                background-color: yellow;
+                border: 1px solid black;
+                border-radius: 10%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rec"></div>
+</body>
+
+</html>
